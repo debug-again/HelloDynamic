@@ -16,7 +16,7 @@ public class LCSTest {
                 .build();
 
         ReflectedMethod rm2 = ReflectedMethod.getBuilderInstance()
-                .addClassAndMethod(demo.dynamic.main.nonrecursive.LCS.class, "find")
+                .addClassAndMethod(demo.dynamic.main.memoization.LCS.class, "find")
                 .addParamter(str1, String.class)
                 .addParamter(str2, String.class)
                 .build();

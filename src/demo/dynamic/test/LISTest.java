@@ -14,7 +14,7 @@ public class LISTest {
                 .build();
 
         ReflectedMethod rm2 = ReflectedMethod.getBuilderInstance()
-                .addClassAndMethod(demo.dynamic.main.nonrecursive.LIS.class, "find")
+                .addClassAndMethod(demo.dynamic.main.memoization.LIS.class, "find")
                 .addParamter(arr, int[].class)
                 .build();
 

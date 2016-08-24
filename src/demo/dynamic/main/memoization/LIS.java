@@ -1,4 +1,4 @@
-package demo.dynamic.main.nonrecursive;
+package demo.dynamic.main.memoization;
 
 
 public class LIS {
