@@ -19,6 +19,8 @@ public class MinCostPathTest {
                 .addParamter(j, int.class)
                 .build();
 
+
+
         PerformanceTest.compare(rm1);
     }
 }
